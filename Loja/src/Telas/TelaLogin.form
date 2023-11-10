@@ -45,24 +45,29 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <Component id="painelVerde" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="30" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="lbIconUser" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="txtLogin" min="-2" pref="139" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                      </Group>
                       <Group type="102" attributes="0">
+                          <EmptySpace pref="30" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="txtSenha" min="-2" pref="139" max="-2" attributes="0"/>
-                              <Component id="lbSenha" min="-2" max="-2" attributes="0"/>
-                              <Component id="lbLogin" min="-2" max="-2" attributes="0"/>
-                              <Component id="btEntrar" min="-2" pref="139" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="txtLogin" min="-2" pref="139" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="txtSenha" min="-2" pref="139" max="-2" attributes="0"/>
+                                      <Component id="lbSenha" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lbLogin" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btEntrar" min="-2" pref="139" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
                           </Group>
-                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="lbIcone" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -72,9 +77,9 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Component id="painelVerde" alignment="0" max="32767" attributes="0"/>
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="lbIconUser" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="30" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  <Component id="lbIcone" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
                   <Component id="lbLogin" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="txtLogin" min="-2" max="-2" attributes="0"/>
@@ -101,9 +106,9 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="134" max="32767" attributes="0"/>
-                      <Component id="lbNomeEmpresa" min="-2" pref="95" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+                      <EmptySpace pref="94" max="32767" attributes="0"/>
+                      <Component id="lbNomeEmpresa" min="-2" pref="182" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -120,7 +125,7 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="lbNomeEmpresa">
               <Properties>
-                <Property name="text" type="java.lang.String" value="empresa tal"/>
+                <Property name="text" type="java.lang.String" value="empresa nome"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -129,9 +134,6 @@
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="7a" red="ff" type="rgb"/>
-            </Property>
-            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="ENTRAR"/>
           </Properties>
@@ -144,9 +146,6 @@
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="cc" green="cc" red="cc" type="rgb"/>
             </Property>
-            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="0" type="rgb"/>
-            </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtSenha">
@@ -158,24 +157,18 @@
         </Component>
         <Component class="javax.swing.JLabel" name="lbSenha">
           <Properties>
-            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="0" type="rgb"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Senha"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbLogin">
           <Properties>
-            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="0" type="rgb"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Login"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="lbIconUser">
+        <Component class="javax.swing.JLabel" name="lbIcone">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\suporte01\Desktop\IconUser.png"/>
+              <Image iconType="3" name="/Imagens/IconeUsuario.png"/>
             </Property>
           </Properties>
         </Component>

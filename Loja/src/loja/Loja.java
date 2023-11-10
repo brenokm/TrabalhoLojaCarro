@@ -5,6 +5,8 @@
 package loja;
 
 import Telas.TelaCadastroFuncionario;
+import Telas.TelaLogin;
+import Telas.TelaPerfil;
 
 /**
  *
@@ -16,7 +18,7 @@ public class Loja {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        TelaCadastroFuncionario t= new TelaCadastroFuncionario();
+        TelaPerfil t= new TelaPerfil();
         t.setVisible(true);
     }
     
